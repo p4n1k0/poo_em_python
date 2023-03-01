@@ -27,4 +27,3 @@ class Log:
     def __formatar(self, nivel, msg):
         data = datetime.now().strftime('%d/%m/%Y %H:%M:%S')
         return f"[{nivel} - {data}]: {msg}"
-    
