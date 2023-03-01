@@ -1,2 +1,7 @@
+from src.manipulador_de_log import ManipuladorDeLog
+
+
 class LogEmTela():
-    pass
+    @classmethod
+    def log(cls, msg):
+        print(msg)
